@@ -10,6 +10,8 @@
   "tags": ["hipchat", "atlassian"],
   "dependencies": [
     {
+      "name": "puppetlabs-apt",
+      "version_requirement": ">=2.0.0"
     }
   ],
   "operatingsystem_support": [
