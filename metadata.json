@@ -1,0 +1,30 @@
+{
+  "name": "dschaaff-hipchatclient",
+  "version": "1.0.0",
+  "author": "Daniel Schaaff",
+  "summary": "Puppet module installing the hipchat client on linux",
+  "license": "Apache-2.0",
+  "source": "https://github.com/dschaaff/puppet-hipchatclient.git",
+  "project_page": "https://github.com/dschaaff/puppet-hipchatclient",
+  "issues_url": "https://github.com/dschaaff/puppet-hipchatclient/issues",
+  "tags": ["hipchat", "atlassian"],
+  "dependencies": [
+    {
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">=3.0.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">=3.0.0"
+    }
+  ]
+}
