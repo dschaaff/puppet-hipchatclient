@@ -1,6 +1,6 @@
 {
   "name": "dschaaff-hipchatclient",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Daniel Schaaff",
   "summary": "Puppet module installing the hipchat client on linux",
   "license": "Apache-2.0",
