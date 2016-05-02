@@ -18,9 +18,6 @@ class hipchatclient (
     require ::hipchatclient::repo
   }
   #include ::apt
-  package {'hipchat':
-    ensure => latest,
-  }
   package {'hipchat4':
     ensure  => latest,
     require => Class['::apt::update']
