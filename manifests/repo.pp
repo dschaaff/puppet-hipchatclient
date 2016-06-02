@@ -3,7 +3,7 @@ class hipchatclient::repo {
   case $::osfamily {
     'Debian': {
       ::apt::source {'hipchat4':
-        location => 'https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client',
+        location => '[arch=amd64] https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client',
         release  => $::lsbdistcodename,
         repos    => 'main',
       }
